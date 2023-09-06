@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 30px;
+  border-bottom: 1px dotted black;
+}
+.logo img {
+  width: 30%;
+}
+.logo button {
+  box-sizing: content-box;
+  position: absolute;
+  right: 15%;
+  top: -5px;
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid hsl(321, 100%, 78%);
+}
