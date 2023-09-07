@@ -56,3 +56,35 @@ html {
 .image img {
   width: 90%;
 }
+section.communities .images {
+  text-align: center;
+  margin-top: 80px;
+}
+section.communities .images img {
+  width: 10%;
+  margin-right: 30%;
+}
+section.communities .images h2 {
+  font-size: 56px;
+}
+section.communities .images p {
+  margin-top: 20px;
+}
+section.communities .grow {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40%;
+}
+section.communities .grow img {
+  width: 70%;
+  margin-left: 15%;
+}
+section.communities .grow h3 {
+  text-align: center;
+  font-size: 26px;
+  margin: 15% 15% 5% 15%;
+}
+section.communities .grow p {
+  text-align: center;
+  margin: 0 30px;
+}
