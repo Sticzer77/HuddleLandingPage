@@ -72,11 +72,6 @@ section.communities .grow {
   flex-direction: column;
   padding-top: 40%;
   min-height: 60vh;
-  background-image: url(/images/bg-section-top-mobile-1.svg),
-    url(/images/bg-section-top-mobile-2.svg);
-  background-size: contain cover;
-  background-repeat: no-repeat;
-  background-position: 0 0, center center;
 }
 section.communities .grow img {
   width: 70%;
@@ -91,6 +86,7 @@ section.communities .grow p {
   text-align: center;
   margin: 0 30px;
 }
+
 footer {
   height: 100vh;
   background-color: red;
