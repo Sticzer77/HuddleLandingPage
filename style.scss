@@ -86,6 +86,30 @@ section.communities .grow p {
   text-align: center;
   margin: 0 30px;
 }
-
-footer {
+footer .getStarted {
+  text-align: center;
+  margin-top: 20%;
+}
+.getStarted h5 {
+  font-size: 26px;
+  padding: 20px;
+}
+.getStarted button {
+  font-size: 14px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+}
+.news {
+  margin: 40% 20px 0 20px;
+}
+.news h6 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.news textarea {
+  border-radius: 10px;
+}
+.news button {
+  padding: 12px 20px;
 }
