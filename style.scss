@@ -14,6 +14,7 @@ $neutralColor1: hsl(207, 100%, 98%);
 html {
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 .logo {
   position: relative;
@@ -97,7 +98,8 @@ section.communities .grow p {
   text-align: center;
   margin: 0 30px;
 }
-footer .getStarted {
+
+.getStarted {
   text-align: center;
   margin-top: 20%;
 }
@@ -112,13 +114,21 @@ footer .getStarted {
   background-color: $primaryColor;
   border-radius: 30px;
   color: $whiteColor;
-  margin-top: 20px;
+  margin: 20px 0 150px 0;
 }
 footer {
-  background-color: #ddd;
+  background-color: $neutralColor;
+}
+.bg img {
+  display: block;
+  transform: translateY(1px);
 }
 .news {
-  margin: 40% 25px 0 25px;
+  padding: 30px 25px;
+  color: $whiteColor;
+}
+.news img {
+  margin-bottom: 100px;
 }
 .news h6 {
   font-size: 22px;
@@ -131,7 +141,7 @@ footer {
 }
 .news button {
   margin-top: 10px;
-  margin-left: 65%;
+  margin-left: 60%;
   padding: 12px 30px;
   border-radius: 5px;
   color: $whiteColor;
@@ -139,8 +149,14 @@ footer {
   background-color: $primaryColor2;
 }
 .footer {
-  margin: 100px 25px 0 25px;
+  padding: 100px 25px 0 25px;
+  color: white;
+  background-color: $neutralColor;
 }
+.footer img {
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);
+}
+
 .footer p {
   margin-top: 20px;
 }
@@ -155,8 +171,9 @@ footer {
 .social {
   margin-top: 20px;
 }
+
 .social i {
   color: $whiteColor;
   font-size: 26px;
-  padding: 5px;
+  padding: 8px;
 }
