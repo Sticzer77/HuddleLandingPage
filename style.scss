@@ -5,6 +5,8 @@ $whiteColor: #fff;
 $blackColor: #000;
 $neutralColor: hsl(192, 100%, 9%);
 $neutralColor1: hsl(207, 100%, 98%);
+$fontFamilyPop: "Poppins", sans-serif;
+$fontFamilyOp: "Open Sans", sans-serif;
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
 * {
   margin: 0;
@@ -44,10 +46,14 @@ html {
 }
 .start h1 {
   line-height: 1.5;
+  font-size: 28px;
   margin: 100px 30px 30px 30px;
 }
 .start p {
   margin: 0 40px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: $fontFamilyOp;
 }
 .start button {
   margin-top: 60px;
@@ -56,6 +62,7 @@ html {
   color: $whiteColor;
   border: none;
   border-radius: 30px;
+  font-weight: bold;
 }
 .image {
   display: flex;
@@ -78,6 +85,8 @@ section.communities .images h2 {
 }
 section.communities .images p {
   margin-top: 20px;
+  font-family: $fontFamilyOp;
+  opacity: 0.5;
 }
 section.communities .grow {
   display: flex;
@@ -97,6 +106,8 @@ section.communities .grow h3 {
 section.communities .grow p {
   text-align: center;
   margin: 0 30px;
+  font-family: $fontFamilyOp;
+  font-size: 14px;
 }
 
 .getStarted {
@@ -118,6 +129,7 @@ section.communities .grow p {
 }
 footer {
   background-color: $neutralColor;
+  padding-bottom: 40px;
 }
 .bg img {
   display: block;
@@ -135,23 +147,27 @@ footer {
   text-transform: uppercase;
   padding: 20px 0;
 }
+.news p {
+  font-family: $fontFamilyOp;
+}
 .news textarea {
   margin-top: 30px;
   border-radius: 5px;
 }
 .news button {
   margin-top: 10px;
-  margin-left: 60%;
+  margin-left: 65%;
   padding: 12px 30px;
   border-radius: 5px;
   color: $whiteColor;
   border: none;
-  background-color: $primaryColor2;
+  background-color: $primaryColor;
 }
 .footer {
   padding: 100px 25px 0 25px;
   color: white;
   background-color: $neutralColor;
+  font-family: $fontFamilyOp;
 }
 .footer img {
   filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);
@@ -169,11 +185,11 @@ footer {
   color: $whiteColor;
 }
 .social {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .social i {
   color: $whiteColor;
   font-size: 26px;
-  padding: 8px;
+  padding-right: 16px;
 }
