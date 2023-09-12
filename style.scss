@@ -94,6 +94,16 @@ section.communities .grow {
   padding-top: 40%;
   min-height: 60vh;
 }
+.bghsl {
+  background-color: $neutralColor1;
+  padding-bottom: 60px;
+}
+.ppadding {
+  padding-bottom: 150px;
+}
+.transform {
+  transform: translateY(-2px);
+}
 section.communities .grow img {
   width: 70%;
   margin-left: 15%;
@@ -192,4 +202,26 @@ footer {
   color: $whiteColor;
   font-size: 26px;
   padding-right: 16px;
+}
+
+@media (max-width: 375px) {
+  textarea {
+    width: 300px;
+  }
+}
+@media (max-width: 280px) {
+  textarea {
+    width: 100%;
+  }
+  .news button {
+    margin-left: 52%;
+  }
+}
+@media (max-width: 280px) {
+  textarea {
+    width: 90%;
+  }
+  .news button {
+    margin-left: 52%;
+  }
 }
